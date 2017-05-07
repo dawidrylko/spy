@@ -2,6 +2,7 @@
 
 const Wit = require('node-wit').Wit;
 const interactive = require('node-wit').interactive;
+const opn = require('opn');
 
 const accessToken = (() => {
   if (process.argv.length !== 3) {
@@ -13,15 +14,15 @@ const accessToken = (() => {
 
 const actions = {
   send(request, response) {
-    console.log('response', response.text);
+    console.log(response.text);
   },
   findPerson({ context, entities }) {
     const fullName = entities.fullName[0].value;
-    let url = 'https://pl.wikipedia.org/wiki/' + fullName.replace(' ', '_');
+    const url = 'https://pl.wikipedia.org/wiki/' + fullName.replace(' ', '_');
 
     if (fullName) {
       context.fullName = fullName;
-      opn('url', { wait: false });
+      opn(url, { wait: false });
     } else {
       console.error('Nie zrozumiałem.');
     }
