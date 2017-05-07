@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dawidrylko/spy/issues"
   },
-  "homepage": "https://github.com/dawidrylko/spy#readme"
+  "homepage": "https://github.com/dawidrylko/spy#readme",
+  "dependencies": {
+    "node-wit": "^4.2.0"
+  }
 }
