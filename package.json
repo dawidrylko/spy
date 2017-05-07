@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dawidrylko/spy#readme",
   "dependencies": {
-    "node-wit": "^4.2.0"
+    "node-wit": "^4.2.0",
+    "opn": "^5.0.0"
   }
 }

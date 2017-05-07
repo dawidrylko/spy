@@ -17,9 +17,11 @@ const actions = {
   },
   findPerson({ context, entities }) {
     const fullName = entities.fullName[0].value;
+    let url = 'https://pl.wikipedia.org/wiki/' + fullName.replace(' ', '_');
 
     if (fullName) {
-      context.fullName = fullName
+      context.fullName = fullName;
+      opn('url', { wait: false });
     } else {
       console.error('Nie zrozumiałem.');
     }
