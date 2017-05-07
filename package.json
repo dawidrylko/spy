@@ -1,0 +1,19 @@
+{
+  "name": "spy",
+  "description": "Simple wit.ai spy bot.",
+  "version": "1.0.0",
+  "author": "www.dawidrylko.com",
+  "license": "ISC",
+  "keywords": [
+    "bot",
+    "wit.ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawidrylko/spy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dawidrylko/spy/issues"
+  },
+  "homepage": "https://github.com/dawidrylko/spy#readme"
+}
