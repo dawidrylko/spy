@@ -1,21 +1,21 @@
 {
   "name": "spy",
-  "description": "Simple wit.ai spy bot.",
   "version": "1.0.0",
+  "description": "Simple wit.ai spy bot.",
   "author": "www.dawidrylko.com",
   "license": "ISC",
-  "keywords": [
-    "bot",
-    "wit.ai"
-  ],
+  "homepage": "https://github.com/dawidrylko/spy#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dawidrylko/spy.git"
   },
+  "keywords": [
+    "bot",
+    "wit.ai"
+  ],
   "bugs": {
     "url": "https://github.com/dawidrylko/spy/issues"
   },
-  "homepage": "https://github.com/dawidrylko/spy#readme",
   "dependencies": {
     "node-wit": "^4.2.0",
     "opn": "^5.0.0"
