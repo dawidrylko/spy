@@ -1,3 +1,6 @@
 [submodule "web"]
 	path = web
 	url = git@github.com:dawidrylko/spy-web.git
+[submodule "messanger"]
+	path = messanger
+	url = git@github.com:dawidrylko/spy-messanger.git
