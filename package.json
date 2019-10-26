@@ -17,7 +17,7 @@
     "url": "https://github.com/dawidrylko/spy/issues"
   },
   "dependencies": {
-    "node-wit": "^4.2.0",
-    "opn": "^5.0.0"
+    "node-wit": "^5.0.0",
+    "opn": "^6.0.0"
   }
 }
