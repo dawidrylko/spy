@@ -1,6 +1,6 @@
 'use strict';
 
-const Wit = require('node-wit').Wit;
+const wit = require('node-wit').Wit;
 const interactive = require('node-wit').interactive;
 const opn = require('opn');
 
@@ -24,12 +24,13 @@ const actions = {
       context.fullName = fullName;
       opn(url, { wait: false });
     } else {
-      console.error('Nie zrozumiałem.');
+      console.error('Fatal error.');
     }
 
     return context;
   }
 };
 
-const client = new Wit({ accessToken, actions });
+const client = new wit({ accessToken, actions });
+
 interactive(client);
